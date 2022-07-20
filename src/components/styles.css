@@ -1,0 +1,29 @@
+.poto{
+    border-right-style: groove;
+  }
+  .hide{
+    list-style:none;
+  }
+  .list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+  }
+  .cardWidth{
+      width: 16rem;
+  }
+
+  @media all and (max-width: 600px) {
+      .hide{
+        list-style:none;
+      }
+      .list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .cardWidth{
+          width: 25rem;
+      }
+  }
